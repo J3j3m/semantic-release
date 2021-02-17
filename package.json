@@ -1,0 +1,36 @@
+{
+  "name": "SemanticReleaseTests",
+  "version": "0.0.0-development",
+  "private": true,
+  "homepage": "https://github.com/J3j3m/semantic-release#readme",
+  "repository": "https://github.com/J3j3m/semantic-release",
+  "author": "Jeremy B <jeremy@winzana.com> (https://github.com/J3j3m)",
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint .",
+    "semantic-release": "semantic-release"
+  },
+  "dependencies": {
+    "react": "16.13.1",
+    "react-native": "0.63.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/runtime": "^7.8.4",
+    "@react-native-community/eslint-config": "^1.1.0",
+    "@semantic-release/changelog": "^5.0.1",
+    "@semantic-release/git": "^9.0.0",
+    "babel-jest": "^25.1.0",
+    "eslint": "^6.5.1",
+    "jest": "^25.1.0",
+    "metro-react-native-babel-preset": "^0.59.0",
+    "react-test-renderer": "16.13.1",
+    "semantic-release": "^17.3.9"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
